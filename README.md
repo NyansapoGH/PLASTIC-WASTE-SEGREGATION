@@ -4,9 +4,10 @@
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Procedure](#procedure)
+  * [Datasets](#datasets)
   * [Model](#model)
   * [Installation](#installation)
-  * [Garbage Prediction](#waste_prediction)
+  * [Plastic Waste Prediction](#waste_prediction)
   
 
 ## Overview
@@ -32,6 +33,15 @@ I chose image classification as the task here because computer vision is one of 
   * Test Results using the web app
   * Next Steps
   
+
+## Datasets
+For the experiment with deep neural networks, it is important to gather a lot of data for each labelled class.The images in the dataset was obtained from (Plastic Waste DataBase of Images – WaDaBa) in which there are 4000  images and have been divided into groups based on the type of materials which are commonly  known  as  Resin  Identification  Code  (RIC). The seven  RIC symbols are  PET,  HDPE,  PVC,  LDPE,  PP,  PS, and Other. 
+  ## Reference for datasets
+ * Bobulski J., Piatkowski J., PET waste classification method and Plastic Waste DataBase WaDaBa, Conference Proc. IP&C 2018, Advances in Intelligent Systems and          Computing, vol. 681, Springer Verlag, 2018, pp.57-64.PDF
+
+* Bobulski J., Kubanek M., Deep Learning for Plastic Waste Classification System, Applied Computational Intelligence and Soft Computing, 2021, art. no. 6626948 DOI:      10.1155/2021/6626948 PDF>
+
+
 ## Model
 I have chosen the pretrained ResNet50 model to perform classification. 
 To figure out how the model was built, take a look at the jupyter notebook entitled `ResNet50 Jupyter.ipynb`...(You will find it very self-explanatory)
@@ -43,7 +53,9 @@ I Used Google Colab to build and train the Model . So depending on the platform 
 ```bash
 pip install -r requirements.txt
 ```
-then, you run the code by typing the command below in your terminal
+then, you run the jupyter file to  build and train the Model 
+
+then finally, you run the code by typing the command below in your terminal to test the streamlit web app
 ```bash
 streamlit run app.py
 ```
