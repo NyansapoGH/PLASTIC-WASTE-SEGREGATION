@@ -53,7 +53,7 @@ I Used Google Colab to build and train the Model . So depending on the platform 
 ```bash
 pip install -r requirements.txt
 ```
-then, you run the jupyter file to  build and train the Model 
+then, you run the jupyter file`ResNet50 Jupyter.ipynb`  to  build and train the Model 
 
 then finally, you run the code by typing the command below in your terminal to test the streamlit web app
 ```bash
