@@ -34,8 +34,10 @@ I chose image classification as the task here because computer vision is one of 
   
 ## Model
 I have chosen the pretrained ResNet50 model to perform classification. 
-To figure out how the model was built, take a look at the jupyter notebook entitled `ResNet50 Jupyter.ipynb`...
-You will find it very self-explanatory
+To figure out how the model was built, take a look at the jupyter notebook entitled `ResNet50 Jupyter.ipynb`...(You will find it very self-explanatory)
+I Used Google Colab to build and train the Model . So depending on the platform you prefer, you have to research about how to use it.
+
+
   
 ## Installation
 ```bash
