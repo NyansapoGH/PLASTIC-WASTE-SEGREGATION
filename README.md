@@ -44,7 +44,7 @@ For the experiment with deep neural networks, it is important to gather a lot of
 
 ## Model
 I have chosen the pretrained ResNet50 model to perform classification. 
-To figure out how the model was built, take a look at the jupyter notebook entitled `ResNet50 Jupyter.ipynb`...(You will find it very self-explanatory)
+To figure out how the model was built, take a look at the jupyter notebook entitled `Plastic Waste Model.ipynb`...(You will find it very self-explanatory)
 I Used Google Colab to build and train the Model . So depending on the platform you prefer, you have to research about how to use it.
 
 
@@ -53,7 +53,7 @@ I Used Google Colab to build and train the Model . So depending on the platform 
 ```bash
 pip install -r requirements.txt
 ```
-then, you run the jupyter file`ResNet50 Jupyter.ipynb`  to  build and train the Model 
+then, you run the jupyter file `Plastic Waste Model.ipynb`  to  build and train the Model 
 
 then finally, you run the code by typing the command below in your terminal to test the streamlit web app
 ```bash
