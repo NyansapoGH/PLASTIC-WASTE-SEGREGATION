@@ -60,4 +60,28 @@ then finally, you run the code by typing the command below in your terminal to t
 streamlit run app.py
 ```
 
+## Plastic Waste Prediction
+The Results from the training of the Model.
+The Training Accuracies and Losses Against Number of EPOCHS Run.
+With the Achievements of 98% Accuracy
+
+* Epoch 1: train_loss: 1.1269, val_loss: 0.9976, val_acc: 0.9336
+* Epoch 2: train_loss: 0.9527, val_loss: 0.9671, val_acc: 0.9570
+* Epoch 3: train_loss: 0.9269, val_loss: 0.9235, val_acc: 0.9883
+* Epoch 4: train_loss: 0.9194, val_loss: 0.9134, val_acc: 1.0000
+* Epoch 5: train_loss: 0.9135, val_loss: 0.9208, val_acc: 0.9883
+* Epoch 6: train_loss: 0.9116, val_loss: 0.9157, val_acc: 0.9961
+* Epoch 7: train_loss: 0.9122, val_loss: 0.9223, val_acc: 0.9609
+* Epoch 8: train_loss: 0.9095, val_loss: 0.9238, val_acc: 0.9922
+* Epoch 9: train_loss: 0.9133, val_loss: 0.9141, val_acc: 1.0000
+* Epoch 10: train_loss: 0.9117, val_loss: 0.9089, val_acc: 1.0000
+
+
+screenshots from testing with the streamlit web app 
+<!--- Add image --->
+* ![Study for Finals](https://github.com/NyansapoGH/PLASTIC-WASTE-SEGREGATION/blob/95269f0519d54a6d0fa8913c7361ce5713d5d72b/Streamlit/Screenshots/pic%203.png?raw=true)
+* ![Study for Finals](https://github.com/NyansapoGH/PLASTIC-WASTE-SEGREGATION/blob/95269f0519d54a6d0fa8913c7361ce5713d5d72b/Streamlit/Screenshots/selected%202.png?raw=true)
+* ![Study for Finals](https://github.com/NyansapoGH/PLASTIC-WASTE-SEGREGATION/blob/95269f0519d54a6d0fa8913c7361ce5713d5d72b/Streamlit/Screenshots/pic%201.png?raw=true)
+
+
 
